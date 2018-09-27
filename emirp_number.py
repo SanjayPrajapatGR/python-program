@@ -1,7 +1,7 @@
 number=int(input("enter the number"))
 count=0
 for i in range(1,number+1,1):
-    if(number%i == 0):                    " check prime or not
+    if(number%i == 0):                    " check prime or not"
         count=count+1
 if(count == 2):
     count1=0
